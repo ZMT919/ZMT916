@@ -1,0 +1,130 @@
+body{
+-moz-user-select:none;/*火狐*/
+-webkit-user-select:none;/*webkit浏览器*/
+-ms-user-select:none;/*IE10*/
+-khtml-user-select:none;/*早期浏览器*/
+user-select:none;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.menu{
+    width: 1515px;
+    height: 60px;
+    background-color: wheat;
+    position:fixed;
+}
+.menu ul li{
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+.menu ul li ul{
+    width: 150px;
+    height: 260px;
+    margin-left: -50px;
+    background-color: wheat;
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+header{
+    background-attachment:fixed;
+}
+body{
+    background-color:whitesmoke;
+}
+#top1{
+    padding:50px;
+}
+#top2{
+    padding:50px;
+}
+#top3{
+    padding:50px;
+}
+#top4{
+    padding:50px;
+}
+#top5{
+    padding:50px;
+}
+#top6{
+    padding:50px;
+}
+#top7{
+    padding:50px;
+}
+#top8{
+    padding:50px;
+}
+#top9{
+    padding:50px;
+}
+#top10{
+    padding:50px;
+}
+#top11{
+    padding:50px;
+}
+#top12{
+    padding:50px;
+}
+#e_coder{
+    width: 8px;
+    height: 2px;
+    position: fixed;
+    top: 85%;
+    left:35%;
+    cursor: pointer;
+}
+#e_app{
+    position: absolute;
+    left: 50px;
+    top: -50px;
+    display: none;
+}
+button{
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding: 8px 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius:2px;
+}
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+form .text {
+    display: inline-block;
+    border: 0;
+    width: 200px;
+    height: 35px;
+    font-size: 6px;
+    outline: none;
+    border: 2px solid #01af63;
+}
+form .search {
+    width: 85px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    /*cursor: pointer;   鼠标悬停或点击时button时鼠标变成其他图标  */
+    text-align: center;
+    line-height: 40px;
+    background-color:floralwhite;
+    color: black;
+}
+
+
+
